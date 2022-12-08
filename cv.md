@@ -34,6 +34,21 @@ My goal in the nearest several years is to **impove my developer skills in web, 
  + Windows PowerShell
 
 **** 
+## Code examples:
+
+```
+def compare_metrics(fn, fn_lib, y_true, y_pred, n_digits=9):
+    """ Print and compare values of custom and library functions using given precision. """
+    m_fn = fn(y_true=y_true, y_pred=y_pred)
+    m_fn_lib = fn_lib(y_true=y_true, y_pred=y_pred)
+    print(f'{fn.__name__} custom : {m_fn}')
+    print(f'{fn.__name__} library: {m_fn_lib}')
+    print()
+    assert round(m_fn, n_digits) == round(m_fn_lib, n_digits)
+```
+
+**** 
+
 ## Experience
 
 * My current project is development of a **web interface** for interacting with **the MSSQLSERVER database** on **DJANGO framework**
