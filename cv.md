@@ -48,7 +48,6 @@ def compare_metrics(fn, fn_lib, y_true, y_pred, n_digits=9):
 ```
 
 **** 
-
 ## Experience
 
 * My current project is development of a **web interface** for interacting with **the MSSQLSERVER database** on **DJANGO framework**
