@@ -79,6 +79,7 @@ body {
   color: #5d7260;
 }
 .code {
+  background-color: #99a9b9;
   white-space: pre-line;
 
   margin: 0;
@@ -86,4 +87,7 @@ body {
 
   font: 12px monospace;
   text-align: left;
+}
+.language{
+  text-transform: uppercase;
 }
