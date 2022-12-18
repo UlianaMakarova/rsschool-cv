@@ -48,10 +48,51 @@
                     Also I'm interesting in improvement my interpersonal skills such as english, time-managenent, communications and etc.</p>
             </section>
             
-            <section class="section" id="skills"><h2 class="section-title">Skills</h2></section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Programming languages:
+                        <ul>
+                            <li>C++</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                            <li>HTML</li>
+                            <li>CSS Basic</li>
+                        </ul></li>
+                    <li>Other tools:
+                        <ul>
+                            <li>DJANGO</li>
+                            <li>MSSQL, SQLITE3, FAUNA</li>
+                            <li>Google Search Console, Google Analytics Basic</li>
+                            <li>Яндекс Вебмастер, Yandex Metrica Basic</li>
+                            <li>Windows PowerShell</li>
+                            <li>Git Basic</li>
+                        </ul></li>
+ 
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="code">
+                    def compare_metrics(fn, fn_lib, y_true, y_pred, n_digits=9):
+                         """ Print and compare values of custom and library functions using given precision. """
+                           m_fn = fn(y_true=y_true, y_pred=y_pred)
+                           m_fn_lib = fn_lib(y_true=y_true, y_pred=y_pred)
+                           print(f'{fn.__name__} custom : {m_fn}')
+                           print(f'{fn.__name__} library: {m_fn_lib}')
+                           print()
+                    assert round(m_fn, n_digits) == round(m_fn_lib, n_digits)</pre>
+            </section>
 
-            <section class="section" id="code"><h2 class="section-title">Code</h2></section>
-            <section class="section" id="courses"><h2 class="section-title">Courses</h2></section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>Course Академия CCNA v.7 from BSAC.</li>
+                    <li>Course MS SQL Server (проектирование, основы администрирования и оптимизация баз данных) from BSAC.</li>
+                    <li>Course ML-INTRO-2022Q1 (DATA SCIENCE) from The Rolling Scope.</li>
+                    <li>Course "Git: Полный курс для начинающих и не только" on Udemy</li>
+                </ul>
+            </section>
             <section class="section" id="projects"><h2 class="section-title">Projects</h2></section>
             <section class="section" id="education"><h2 class="section-title">Education</h2></section>
             <section class="section" id="english"><h2 class="section-title">English</h2></section>
