@@ -5,7 +5,7 @@ box-sizing: border-box;
 html {
 scroll-behavior: smooth;
 }
-body {
+body{
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -18,7 +18,7 @@ font-weight: 400;
 line-height: 1.5;
 color: #4d2323;
 }
-.header {
+.header{
 background-color: #3d6342;
 margin: 0;
 }
