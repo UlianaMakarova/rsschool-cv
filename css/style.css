@@ -22,6 +22,9 @@ color: #4d2323;
 background-color: #3d6342;
 margin: 0;
 }
+table{
+  border-spacing: 20;
+}
 .nav-list {
 display: flex;
 justify-content: flex-end;
